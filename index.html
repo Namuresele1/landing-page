@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Namure Aluebhosele — Product Designer & Developer</title>
+  <meta name="description" content="Namure Aluebhosele — product designer and developer. Portfolio, projects, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">Welcome to my portfolio!
+    <div class="container">
+      <a class="logo" href="#">Namure Aluebhosele</a>
+      <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I'm Namure Aluebhosele</h1>
+        <p class="tagline">I design and build web products focused on performance and simplicity.I am currently an undergraduate student at university studying Computer Science.</p>
+        <p class="cta-row">
+          <a class="btn" href="#projects">View Work</a>
+          <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>I’m a product designer and front-end developer who crafts accessible, fast interfaces. I work across design systems, component-driven UIs, and end-to-end product flows. Currently available for contract and collaboration.</p>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Selected Projects</h2>
+      <ul class="projects">
+        <li>
+          <strong>Aurora UI</strong>
+          <p>Design system and component library used across multiple products. <a href="#">Live / Repo</a></p>
+        </li>
+        <li>
+          <strong>Beacon</strong>
+          <p>Realtime collaboration app focused on low-latency editing and sync. <a href="#">Live / Repo</a></p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>If you'd like to work together, send a message or email me at <a href="mailto:Namuresele1@gmail.com">Namuresele1@gmail.com</a>.</p>
+
+      <form id="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p id="form-status" class="muted"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Namure Aluebhosele — <a href="#">Privacy</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
