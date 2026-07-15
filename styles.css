@@ -23,7 +23,7 @@ body::before{content:'';position:fixed;inset:0;background:repeating-radial-gradi
 #nav-toggle{display:none;background:transparent;border:0;color:var(--text);font-size:1.35rem}
 .hero{padding:6rem 0 4rem;text-align:center;display:grid;place-items:center;gap:1.5rem;position:relative;}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center, rgba(57,240,255,0.1), transparent 45%);pointer-events:none}
-.hero-photo{width:170px;height:170px;margin:0 auto;border-radius:50%;overflow:hidden;border:4px solid rgba(57,240,255,0.32);box-shadow:0 0 0 1px rgba(255,255,255,0.05),0 25px 80px rgba(6,15,40,0.45)}
+ .hero-photo{width:170px;height:170px;margin:0 auto 1.75rem;border-radius:50%;overflow:hidden;border:4px solid rgba(57,240,255,0.32);box-shadow:0 0 0 1px rgba(255,255,255,0.05),0 25px 80px rgba(6,15,40,0.45);transform:translateY(6px)}
 .hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
 .hero h1{font-size:2.6rem;margin:.25rem 0;letter-spacing:0.02em;text-transform:none;}
 .tagline{color:var(--muted);font-size:1.12rem;max-width:720px;line-height:1.8;}
